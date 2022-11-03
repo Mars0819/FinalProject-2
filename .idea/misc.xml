@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/HP/Documents/GitHub/FinalProject2 Hanifatul/app/src/main/res/drawable/orange_custom_button.xml" value="0.1" />
+        <entry key="..\:/Users/HP/Documents/GitHub/FinalProject2 Hanifatul/app/src/main/res/drawable/shape1.xml" value="0.15" />
+        <entry key="..\:/Users/HP/Documents/GitHub/FinalProject2 Hanifatul/app/src/main/res/drawable/white_custom_background.xml" value="0.1" />
+        <entry key="..\:/Users/HP/Documents/GitHub/FinalProject2 Hanifatul/app/src/main/res/layout/activity_about.xml" value="0.17552083333333332" />
+        <entry key="..\:/Users/HP/Documents/GitHub/FinalProject2 Hanifatul/app/src/main/res/layout/activity_admin.xml" value="0.11503623188405797" />
+        <entry key="..\:/Users/HP/Documents/GitHub/FinalProject2 Hanifatul/app/src/main/res/layout/activity_admin_add_staff.xml" value="0.17552083333333332" />
+        <entry key="..\:/Users/HP/Documents/GitHub/FinalProject2 Hanifatul/app/src/main/res/layout/activity_admin_add_stock.xml" value="0.17552083333333332" />
+        <entry key="..\:/Users/HP/Documents/GitHub/FinalProject2 Hanifatul/app/src/main/res/layout/activity_admin_login.xml" value="0.17552083333333332" />
+        <entry key="..\:/Users/HP/Documents/GitHub/FinalProject2 Hanifatul/app/src/main/res/layout/activity_admin_login_pages.xml" value="0.13333333333333333" />
+        <entry key="..\:/Users/HP/Documents/GitHub/FinalProject2 Hanifatul/app/src/main/res/layout/activity_halaman_awal.xml" value="0.17552083333333332" />
+        <entry key="..\:/Users/HP/Documents/GitHub/FinalProject2 Hanifatul/app/src/main/res/layout/activity_main.xml" value="0.17552083333333332" />
+        <entry key="..\:/Users/HP/Documents/GitHub/FinalProject2 Hanifatul/app/src/main/res/layout/activity_main_admin.xml" value="0.17552083333333332" />
+        <entry key="..\:/Users/HP/Documents/GitHub/FinalProject2 Hanifatul/app/src/main/res/layout/activity_regis_user.xml" value="0.17552083333333332" />
+        <entry key="..\:/Users/HP/Documents/GitHub/FinalProject2 Hanifatul/app/src/main/res/layout/activity_splash_screen.xml" value="0.16145833333333334" />
+        <entry key="..\:/Users/HP/Documents/GitHub/FinalProject2 Hanifatul/app/src/main/res/layout/activity_staf_login.xml" value="0.17552083333333332" />
+        <entry key="..\:/Users/HP/Documents/GitHub/FinalProject2 Hanifatul/app/src/main/res/layout/activity_staff_login_pages.xml" value="0.17552083333333332" />
+        <entry key="..\:/Users/HP/Documents/GitHub/FinalProject2 Hanifatul/app/src/main/res/layout/activity_user_login.xml" value="0.17552083333333332" />
+        <entry key="..\:/Users/HP/Documents/GitHub/FinalProject2 Hanifatul/app/src/main/res/layout/activity_user_login_pages.xml" value="0.17552083333333332" />
+        <entry key="..\:/Users/HP/Documents/GitHub/FinalProject2 Hanifatul/app/src/main/res/layout/activity_user_register.xml" value="0.1693840579710145" />
+        <entry key="..\:/Users/HP/Documents/GitHub/FinalProject2 Hanifatul/app/src/main/res/layout/activity_user_register_pages.xml" value="0.17552083333333332" />
+        <entry key="..\:/Users/HP/Documents/GitHub/FinalProject2/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.133" />
+        <entry key="..\:/Users/HP/Documents/GitHub/FinalProject2/app/src/main/res/drawable/button_color.xml" value="0.133" />
+        <entry key="..\:/Users/HP/Documents/GitHub/FinalProject2/app/src/main/res/drawable/ic_launcher_background.xml" value="0.133" />
+        <entry key="..\:/Users/HP/Documents/GitHub/FinalProject2/app/src/main/res/drawable/shape3.xml" value="0.133" />
+        <entry key="..\:/Users/HP/Documents/GitHub/FinalProject2/app/src/main/res/layout/activity_about.xml" value="0.17552083333333332" />
+        <entry key="..\:/Users/HP/Documents/GitHub/FinalProject2/app/src/main/res/layout/activity_admin_login.xml" value="0.17552083333333332" />
+        <entry key="..\:/Users/HP/Documents/GitHub/FinalProject2/app/src/main/res/layout/activity_halaman_awal.xml" value="0.17552083333333332" />
+        <entry key="..\:/Users/HP/Documents/GitHub/FinalProject2/app/src/main/res/layout/activity_main.xml" value="0.17552083333333332" />
+        <entry key="..\:/Users/HP/Documents/GitHub/FinalProject2/app/src/main/res/layout/activity_main_admin.xml" value="0.17552083333333332" />
+        <entry key="..\:/Users/HP/Documents/GitHub/FinalProject2/app/src/main/res/layout/activity_regis_user.xml" value="0.14666666666666667" />
+        <entry key="..\:/Users/HP/Documents/GitHub/FinalProject2/app/src/main/res/layout/activity_staf_login.xml" value="0.17552083333333332" />
+        <entry key="..\:/Users/HP/Documents/GitHub/FinalProject2/app/src/main/res/layout/activity_user_login.xml" value="0.17552083333333332" />
+      </map>
+    </option>
+  </component>
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

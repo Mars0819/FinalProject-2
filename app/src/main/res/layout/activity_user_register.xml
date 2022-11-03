@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegisUser"
+    android:background="@color/primaryColor">
+
+    <ImageView
+        android:id="@+id/imageRegis"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="60dp"
+        android:layout_marginBottom="40dp"
+        android:src="@drawable/group_6" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/imageRegis"
+        android:background="@drawable/shape1"
+        android:backgroundTint="@color/White">
+
+        <TextView
+            android:id="@+id/tvwelcomeadmin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_centerHorizontal="true"
+            android:fontFamily="@font/poppinsbold"
+            android:text="Register"
+            android:textColor="@color/Black"
+            android:textSize="25sp" />
+
+        <LinearLayout
+            android:layout_width="165dp"
+            android:layout_height="265dp"
+            android:layout_marginLeft="15sp"
+            android:layout_marginTop="70sp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="20sp"
+                android:fontFamily="@font/poppinsbold"
+                android:text="Nama"
+                android:textColor="@color/Black"
+                android:textSize="15sp" />
+
+<!--            <TextView-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginLeft="10dp"-->
+<!--                android:layout_marginTop="25sp"-->
+<!--                android:fontFamily="@font/poppinsbold"-->
+<!--                android:text="Email"-->
+<!--                android:textColor="@color/Black"-->
+<!--                android:textSize="15sp" />-->
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="25sp"
+                android:fontFamily="@font/poppinsbold"
+                android:text="Telephone"
+                android:textColor="@color/Black"
+                android:textSize="15sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="25sp"
+                android:fontFamily="@font/poppinsbold"
+                android:text="Password"
+                android:textColor="@color/Black"
+                android:textSize="15sp" />
+
+<!--            <TextView-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginLeft="10dp"-->
+<!--                android:layout_marginTop="20sp"-->
+<!--                android:fontFamily="@font/poppinsbold"-->
+<!--                android:text="Re-Password"-->
+<!--                android:textColor="@color/Black"-->
+<!--                android:textSize="15sp" />-->
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="215dp"
+            android:layout_height="265dp"
+            android:layout_marginLeft="155dp"
+            android:layout_marginTop="70sp"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/regis_name"
+                android:layout_width="200sp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:hint="Nama Lengkap"
+                android:inputType="textPersonName" />
+
+<!--            <EditText-->
+<!--                android:id="@+id/regis_email"-->
+<!--                android:layout_width="200sp"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginTop="5dp"-->
+<!--                android:hint="Email"-->
+<!--                android:inputType="textEmailAddress" />-->
+
+            <EditText
+                android:id="@+id/regis_tlfn"
+                android:layout_width="200sp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:hint="Telephone"
+                android:inputType="number" />
+
+            <EditText
+                android:id="@+id/regis_password"
+                android:layout_width="200sp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:hint="Password"
+                android:inputType="textPassword" />
+
+<!--            <EditText-->
+<!--                android:id="@+id/regis_repassword"-->
+<!--                android:layout_width="200sp"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginTop="5dp"-->
+<!--                android:hint="Re-Password"-->
+<!--                android:inputType="textPersonName" />-->
+
+        </LinearLayout>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="50sp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="150dp"
+            android:layout_marginTop="340dp"
+            android:background="@drawable/button_color"
+            android:fontFamily="@font/poppinsbold"
+            android:text="Register" />
+    </RelativeLayout>
+
+</RelativeLayout>

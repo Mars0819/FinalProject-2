@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">FinalProject2</string>
+    <string name="txt_add_staff">Add Staff</string>
+    <string name="txt_create_account">Create Account</string>
+    <string name="txt_password">Password</string>
+    <string name="txt_phone_no">Phone No</string>
+    <string name="txt_name">Name</string>
+    <string name="txt_login_as_staff">Login As Staff</string>
+    <string name="txt_add_stock">Add Stock</string>
+    <string name="txt_login_as_admin">Login As Admin</string>
+    <string name="txt_we_wish_you_a_happy_working_day">We wish you a happy working day</string>
+    <string name="txt_enter_item_id">Enter Item ID</string>
+    <string name="txt_enter_quantity_to_add">Enter quantity to add</string>
+    <string name="txt_add_given_quantity_to_the_mentioned_item">Add Given Quantity To The Mentioned Item</string>
+    <string name="txt_confirm_password">Confirm Password</string>
+    <string name="txt_register_staff">Register Staff</string>
+    <string name="txt_hacktiv8">Hacktiv8</string>
+    <string name="txt_subtittle">Final Projek 2</string>
+    <string name="txt_username">Username</string>
+    <string name="txt_login">Login</string>
+    <string name="txt_login_as_user">Login as user</string>
+    <string name="register_stock">Register Stock</string>
+    <string name="registerOption">Register</string>
+    <string name="loginOption">Login</string>
+    <string name="menuOption">menuOption</string>
+
+    <string name="txt_submit">submit</string>
+    <string name="txt_team_member">Team Member</string>
+
+</resources>

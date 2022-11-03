@@ -1,0 +1,11 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.FinalProject2" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="android:colorPrimary">@color/primaryColor</item>
+        <item name="android:colorSecondary">@color/secondaryColor</item>
+        <item name="colorAccent">@color/Black</item>
+        <item name="colorOnSecondary">@color/White</item>
+        <item name="colorOnPrimary">@color/Backgroud</item>
+    </style>
+</resources>
