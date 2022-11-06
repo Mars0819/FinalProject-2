@@ -1,17 +1,16 @@
-package com.example.finalproject2;
-
-import androidx.appcompat.app.AppCompatActivity;
+package com.example.finalproject2.User;
 
 import android.os.Bundle;
 
-public class RegisUser extends AppCompatActivity {
+import androidx.appcompat.app.AppCompatActivity;
+
+import com.example.finalproject2.R;
+
+public class UserRegisterActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_user_register);
-
-
-
     }
 }

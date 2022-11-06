@@ -22,13 +22,6 @@
                 android:value="" />
         </activity>
         <activity
-            android:name=".RegisUser"
-            android:exported="false">
-            <meta-data
-                android:name="android.app.lib_name"
-                android:value="" />
-        </activity>
-        <activity
             android:name=".StafLogin"
             android:exported="false">
             <meta-data
@@ -36,7 +29,7 @@
                 android:value="" />
         </activity>
         <activity
-            android:name=".AdminLogin"
+            android:name=".Admin.AdminLoginPagesActivity"
             android:exported="false">
             <meta-data
                 android:name="android.app.lib_name"
@@ -49,7 +42,7 @@
                 android:value=""/>
         </activity>
         <activity
-            android:name=".UserLogin"
+            android:name=".Admin.AdminActivity"
             android:exported="false">
             <meta-data
                 android:name="android.app.lib_name"
@@ -71,6 +64,20 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
 
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".Admin.AdminAddStaffActivity"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".Admin.AdminAddStockActivity"
+            android:exported="false">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />

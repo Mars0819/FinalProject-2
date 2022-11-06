@@ -10,6 +10,7 @@ import android.widget.Toast;
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
+import com.example.finalproject2.AdminMain;
 import com.example.finalproject2.databinding.ActivityAdminLoginPagesBinding;
 import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
@@ -33,7 +34,7 @@ public class AdminLoginPagesActivity extends AppCompatActivity {
                 if (usernameLogin.isEmpty() || passwordLogin.isEmpty()) {
                     Toast.makeText(AdminLoginPagesActivity.this, "Please enter your username or password", Toast.LENGTH_SHORT).show();
                 } else {
-                    DATABASE_REFERENCE.child("Admins").addListenerForSingleValueEvent(new ValueEventListener() {
+                    DATABASE_REFERENCE.child("mimin").addListenerForSingleValueEvent(new ValueEventListener() {
                         @Override
                         public void onDataChange(@NonNull DataSnapshot snapshot) {
                             //check if username/password is exist in firebase db
@@ -41,7 +42,7 @@ public class AdminLoginPagesActivity extends AppCompatActivity {
                                 String getPasswordLogin = snapshot.child(usernameLogin).child("password").getValue(String.class);
                                 if (getPasswordLogin.equals(passwordLogin)) {
                                     Toast.makeText(AdminLoginPagesActivity.this, "Successfully Logged in", Toast.LENGTH_SHORT).show();
-                                    startActivity(new Intent(AdminLoginPagesActivity.this, AdminActivity.class));
+                                    startActivity(new Intent(AdminLoginPagesActivity.this, AdminMain.class));
                                     finish();
                                 } else {
                                     Toast.makeText(AdminLoginPagesActivity.this, "Wrong Password", Toast.LENGTH_SHORT).show();

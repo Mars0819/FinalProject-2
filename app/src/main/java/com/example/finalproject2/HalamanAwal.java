@@ -13,6 +13,10 @@ import android.widget.ImageView;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
 
+import com.example.finalproject2.Admin.AdminLoginPagesActivity;
+import com.example.finalproject2.User.UserLoginActivity;
+import com.example.finalproject2.User.UserRegisterActivity;
+
 public class HalamanAwal extends AppCompatActivity {
 
     Button userlogin,registeruser,about;
@@ -24,7 +28,7 @@ public class HalamanAwal extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_halaman_awal);
+        setContentView(R.layout.activity_main);
 
         userlogin = findViewById(R.id.buttonlogin);
         adminlogin = findViewById(R.id.tvadminlogin);
@@ -47,7 +51,7 @@ public class HalamanAwal extends AppCompatActivity {
         userlogin.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(HalamanAwal.this,UserLogin.class);
+                Intent intent = new Intent(HalamanAwal.this, UserLoginActivity.class);
                 intent.addFlags(intent.FLAG_ACTIVITY_CLEAR_TOP|intent.FLAG_ACTIVITY_SINGLE_TOP);
                 startActivity(intent);
             }
@@ -55,7 +59,7 @@ public class HalamanAwal extends AppCompatActivity {
         adminlogin.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(HalamanAwal.this,AdminLogin.class);
+                Intent intent = new Intent(HalamanAwal.this, AdminLoginPagesActivity.class);
                 intent.addFlags(intent.FLAG_ACTIVITY_CLEAR_TOP|intent.FLAG_ACTIVITY_SINGLE_TOP);
                 startActivity(intent);
             }
@@ -63,7 +67,7 @@ public class HalamanAwal extends AppCompatActivity {
         registeruser.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(HalamanAwal.this,RegisUser.class);
+                Intent intent = new Intent(HalamanAwal.this, UserRegisterActivity.class);
                 intent.addFlags(intent.FLAG_ACTIVITY_CLEAR_TOP|intent.FLAG_ACTIVITY_SINGLE_TOP);
                 startActivity(intent);
             }

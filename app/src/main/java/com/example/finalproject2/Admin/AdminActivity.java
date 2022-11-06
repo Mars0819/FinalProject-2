@@ -13,13 +13,10 @@ import com.example.finalproject2.databinding.ActivityAdminBinding;
 
 public class AdminActivity extends AppCompatActivity {
 
-    ActivityAdminBinding binding;
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
-
         super.onCreate(savedInstanceState);
-        binding = ActivityAdminBinding.inflate(getLayoutInflater());
+        com.example.finalproject2.databinding.ActivityAdminBinding binding = ActivityAdminBinding.inflate(getLayoutInflater());
         setContentView(binding.getRoot());
 
         binding.btnAddStaff.setOnClickListener(new View.OnClickListener() {
