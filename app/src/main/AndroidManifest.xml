@@ -90,6 +90,30 @@
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
+        <activity
+            android:name=".Products.CategoryActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Products.OtheritemsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Products.BooksActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Products.ElectronicsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Products.ClothingActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Products.TshirtsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Products.HomepageActivity"
+            android:exported="false" />
     </application>
 
 </manifest>
