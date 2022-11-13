@@ -2,6 +2,7 @@ package com.example.finalproject2;
 
 import android.annotation.SuppressLint;
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.os.Handler;
 import android.view.animation.Animation;
@@ -11,6 +12,7 @@ import android.widget.TextView;
 import androidx.appcompat.app.AppCompatActivity;
 
 import com.airbnb.lottie.LottieAnimationView;
+import com.example.finalproject2.Admin.AdminLoginPagesActivity;
 
 @SuppressLint("CustomSplashScreen")
 public class SplashScreenActivity extends AppCompatActivity {
@@ -34,8 +36,15 @@ public class SplashScreenActivity extends AppCompatActivity {
         new Handler().postDelayed(new Runnable() {
             @Override
             public void run() {
-                Intent intent = new Intent(SplashScreenActivity.this, HalamanAwal.class);
-                startActivity(intent);
+                SharedPreferences loginSave = getSharedPreferences(AdminLoginPagesActivity.PREFS_NAME, 0);
+                boolean hasLogged = loginSave.getBoolean("hasLogged", false);
+
+                if(hasLogged) {
+                    startActivity(new Intent(SplashScreenActivity.this, AdminMain.class));
+                }
+                else {
+                    startActivity(new Intent(SplashScreenActivity.this, HalamanAwal.class));
+                }
                 finish();
             }
         },5000);

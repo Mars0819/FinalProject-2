@@ -3,6 +3,7 @@ package com.example.finalproject2.Admin;
 import static com.example.finalproject2.Database.Preference.DATABASE_REFERENCE;
 
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Toast;
@@ -17,6 +18,7 @@ import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.ValueEventListener;
 
 public class AdminLoginPagesActivity extends AppCompatActivity {
+    public static final String PREFS_NAME = "Logined";
     ActivityAdminLoginPagesBinding binding;
 
     @Override
@@ -41,6 +43,12 @@ public class AdminLoginPagesActivity extends AppCompatActivity {
                             if (snapshot.hasChild(usernameLogin)) {
                                 String getPasswordLogin = snapshot.child(usernameLogin).child("password").getValue(String.class);
                                 if (getPasswordLogin.equals(passwordLogin)) {
+                                    SharedPreferences loginSave = getSharedPreferences(AdminLoginPagesActivity.PREFS_NAME, 0);
+                                    SharedPreferences.Editor editor = loginSave.edit();
+
+                                    editor.putBoolean("hasLogged", true);
+                                    editor.commit();
+
                                     Toast.makeText(AdminLoginPagesActivity.this, "Successfully Logged in", Toast.LENGTH_SHORT).show();
                                     startActivity(new Intent(AdminLoginPagesActivity.this, AdminMain.class));
                                     finish();

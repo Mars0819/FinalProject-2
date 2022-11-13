@@ -38,25 +38,57 @@
         android:background="@drawable/shape1"
         android:backgroundTint="@color/White" >
 
-    <EditText
-        android:id="@+id/etItemId"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginLeft="40dp"
-        android:layout_marginTop="0dp"
-        android:layout_marginRight="40dp"
-        android:background="@drawable/shape2"
-        android:drawablePadding="40dp"
-        android:hint="@string/txt_enter_item_id"
-        android:padding="15dp"
-        android:textColorHint="@color/Black"
-        android:textSize="15dp" />
+
+        <EditText
+            android:id="@+id/etItemId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="0dp"
+            android:layout_marginRight="40dp"
+            android:background="@drawable/shape2"
+            android:drawablePadding="40dp"
+            android:hint="@string/txt_enter_item_id"
+            android:padding="15dp"
+            android:textColorHint="@color/Black"
+            android:textSize="15dp" />
+
+        <Spinner
+            android:id="@+id/etkategoribrg"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_below="@id/etItemId"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="40dp"
+            android:background="@drawable/shape2"
+            android:drawablePadding="40dp"
+            android:entries="@array/type_of_kategori"
+            android:padding="15dp"
+            android:textColorHint="@color/Black"
+            android:textSize="15dp" />
+
+
+        <EditText
+            android:id="@+id/etNamaBarang"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/etkategoribrg"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="40dp"
+            android:background="@drawable/shape2"
+            android:drawablePadding="40dp"
+            android:hint="Nama Barang"
+            android:padding="15dp"
+            android:textColorHint="@color/Black"
+            android:textSize="15dp" />
 
     <EditText
         android:id="@+id/etQuantityItem"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/etItemId"
+        android:layout_below="@+id/etNamaBarang"
         android:layout_marginLeft="40dp"
         android:layout_marginTop="20dp"
         android:layout_marginRight="40dp"

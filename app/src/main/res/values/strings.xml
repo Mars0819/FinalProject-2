@@ -10,6 +10,8 @@
     <string name="txt_login_as_admin">Login As Admin</string>
     <string name="txt_we_wish_you_a_happy_working_day">We wish you a happy working day</string>
     <string name="txt_enter_item_id">Enter Item ID</string>
+    <string name="txt_kategori_barang">Kategori Barang</string>
+    <string name="txt_nama_barang">Nama Barang</string>
     <string name="txt_enter_quantity_to_add">Enter quantity to add</string>
     <string name="txt_add_given_quantity_to_the_mentioned_item">Add Given Quantity To The Mentioned Item</string>
     <string name="txt_confirm_password">Confirm Password</string>
@@ -26,5 +28,13 @@
 
     <string name="txt_submit">submit</string>
     <string name="txt_team_member">Team Member</string>
+
+    <array name="type_of_kategori">
+        <item>Pilih Kategori</item>
+        <item>T-Shirts</item>
+        <item>Formals</item>
+        <item>Bottom Wear</item>
+        <item>Shoes</item>
+    </array>
 
 </resources>
