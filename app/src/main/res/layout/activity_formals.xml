@@ -5,7 +5,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Products.TshirtsMenActivity"
+    tools:context=".Products.FormalsMenActivity"
     android:orientation="vertical">
 
     <LinearLayout
@@ -42,7 +42,7 @@
                     android:layout_below="@id/tvJudul">
 
                     <androidx.recyclerview.widget.RecyclerView
-                        android:id="@+id/rvTshirtsItem"
+                        android:id="@+id/rvFormalsItem"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:background="@color/white"
@@ -50,7 +50,7 @@
                         android:paddingTop="5dp"
                         android:paddingRight="5dp"
                         app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
-                        tools:listitem="@layout/list_item_tshirts" />
+                        tools:listitem="@layout/list_item_formals" />
 
 
                 </ScrollView>

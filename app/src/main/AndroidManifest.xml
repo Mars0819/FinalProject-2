@@ -15,6 +15,27 @@
         android:theme="@style/Theme.FinalProject2"
         tools:targetApi="31">
         <activity
+            android:name=".Products.ShoesMenActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Products.ShoesWomenActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Products.TshirtsWomenActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Products.BottomwearMenActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Products.BottomwearWomenActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Products.FormalsMenActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Products.FormalsWomenActivity"
+            android:exported="false" />
+        <activity
             android:name=".SuccessLoginStaf"
             android:exported="false">
             <meta-data
@@ -72,13 +93,7 @@
         </activity>
         <activity
             android:name=".SplashScreenActivity"
-            android:exported="true">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-
+            android:exported="false">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
@@ -98,7 +113,10 @@
                 android:value="" />
         </activity>
         <activity
-            android:name=".Products.CategoryActivity"
+            android:name=".Products.CategoryMenActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Products.CategoryWomenActivity"
             android:exported="false" />
         <activity
             android:name=".Products.OtheritemsActivity"
@@ -116,11 +134,17 @@
             android:name=".Products.ClothingActivity"
             android:exported="false" />
         <activity
-            android:name=".Products.TshirtsActivity"
+            android:name=".Products.TshirtsMenActivity"
             android:exported="false" />
         <activity
             android:name=".Products.HomepageActivity"
-            android:exported="false" />
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
     </application>
 
 </manifest>

@@ -5,14 +5,23 @@
       <map>
         <entry key="..\:/FinalProject-2/app/src/main/res/drawable/button_color.xml" value="0.1" />
         <entry key="..\:/FinalProject-2/app/src/main/res/drawable/button_transparent.xml" value="0.1" />
+        <entry key="..\:/FinalProject-2/app/src/main/res/drawable/shape1.xml" value="0.1615" />
         <entry key="..\:/FinalProject-2/app/src/main/res/layout/activity_books.xml" value="0.20989583333333334" />
+        <entry key="..\:/FinalProject-2/app/src/main/res/layout/activity_bottomwear.xml" value="0.15070242656449553" />
         <entry key="..\:/FinalProject-2/app/src/main/res/layout/activity_category.xml" value="0.22" />
         <entry key="..\:/FinalProject-2/app/src/main/res/layout/activity_clothing.xml" value="0.20989583333333334" />
         <entry key="..\:/FinalProject-2/app/src/main/res/layout/activity_electronics.xml" value="0.20989583333333334" />
+        <entry key="..\:/FinalProject-2/app/src/main/res/layout/activity_formals.xml" value="0.14987298899237933" />
         <entry key="..\:/FinalProject-2/app/src/main/res/layout/activity_homepage.xml" value="0.20989583333333334" />
         <entry key="..\:/FinalProject-2/app/src/main/res/layout/activity_otheritems.xml" value="0.20989583333333334" />
-        <entry key="..\:/FinalProject-2/app/src/main/res/layout/activity_tshirts.xml" value="0.20989583333333334" />
+        <entry key="..\:/FinalProject-2/app/src/main/res/layout/activity_shoes.xml" value="0.14895833333333333" />
+        <entry key="..\:/FinalProject-2/app/src/main/res/layout/activity_tshirts.xml" value="0.14666666666666667" />
+        <entry key="..\:/FinalProject-2/app/src/main/res/layout/list_item_bottomwear.xml" value="0.1" />
+        <entry key="..\:/FinalProject-2/app/src/main/res/layout/list_item_formals.xml" value="0.184375" />
+        <entry key="..\:/FinalProject-2/app/src/main/res/layout/list_item_formals_men.xml" value="0.16875" />
+        <entry key="..\:/FinalProject-2/app/src/main/res/layout/list_item_shoes.xml" value="0.14895833333333333" />
         <entry key="..\:/FinalProject-2/app/src/main/res/layout/list_item_tshirts.xml" value="0.20989583333333334" />
+        <entry key="..\:/FinalProject-2/app/src/main/res/layout/list_item_tshirts_men.xml" value="0.1" />
         <entry key="..\:/Users/HP/Documents/GitHub/FinalProject-2/app/src/main/res/drawable/button_color.xml" value="0.1765" />
         <entry key="..\:/Users/HP/Documents/GitHub/FinalProject-2/app/src/main/res/drawable/button_transparent.xml" value="0.1765" />
         <entry key="..\:/Users/HP/Documents/GitHub/FinalProject-2/app/src/main/res/drawable/ic_baseline_email_24.xml" value="0.1765" />

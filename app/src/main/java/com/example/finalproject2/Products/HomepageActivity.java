@@ -19,7 +19,6 @@ public class HomepageActivity extends AppCompatActivity {
         setContentView(R.layout.activity_homepage);
 
         btnClothing = findViewById(R.id.btnClothing);
-        btnElectronics = findViewById(R.id.btnElectronics);
 
         btnClothing.setOnClickListener(new View.OnClickListener() {
             @Override

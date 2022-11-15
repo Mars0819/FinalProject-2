@@ -12,12 +12,12 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import com.example.finalproject2.R;
 
-public class TshirtsAdapter extends RecyclerView.Adapter<TshirtsAdapter.ViewRecHolder> {
+public class ShoesAdapter extends RecyclerView.Adapter<ShoesAdapter.ViewRecHolder> {
 
-    private TshirtsModel[] listData;
+    private ShoesModel[] listData;
     private Context mcontext;
 
-    public TshirtsAdapter(TshirtsModel[] listData, Context mcontext) {
+    public ShoesAdapter(ShoesModel[] listData, Context mcontext) {
         this.listData = listData;
         this.mcontext = mcontext;
     }
@@ -27,13 +27,13 @@ public class TshirtsAdapter extends RecyclerView.Adapter<TshirtsAdapter.ViewRecH
     @Override
     public ViewRecHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
         View view = LayoutInflater.from(mcontext).
-                inflate(R.layout.list_item_tshirts,parent,false);
+                inflate(R.layout.list_item_shoes,parent,false);
         return new ViewRecHolder(view);
     }
 
     @Override
     public void onBindViewHolder(@NonNull ViewRecHolder holder, int position) {
-        final TshirtsModel tshirtsModel = listData[position];
+        final ShoesModel shoesModel = listData[position];
         holder.tvNamaItem.setText(listData[position].getTvNamaItem());
         holder.tvHarga.setText(listData[position].getTvHarga());
         holder.imgItem.setImageResource(listData[position].getImgItem());

@@ -17,7 +17,7 @@
         android:layout_width="match_parent"
         android:layout_height="200dp"
         android:layout_margin="8dp"
-        android:text="Clothing Accesories"
+        android:text="Clothing"
         android:textColor="@color/blue"
         android:background="@drawable/button_transparent" />
 
