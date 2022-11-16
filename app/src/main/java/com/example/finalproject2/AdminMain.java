@@ -4,15 +4,13 @@ import android.content.Intent;
 import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.view.View;
-import android.widget.Button;
 import android.widget.Toast;
 
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 
-import com.example.finalproject2.Admin.AdminActivity;
 import com.example.finalproject2.Admin.AdminAddStaffActivity;
-import com.example.finalproject2.Admin.AdminAddStockActivity;
+import com.example.finalproject2.Admin.AdminUpdateIdItemsActivity;
 import com.example.finalproject2.Admin.AdminLoginPagesActivity;
 import com.example.finalproject2.databinding.ActivityAdminBinding;
 import com.google.firebase.auth.FirebaseAuth;
@@ -35,10 +33,10 @@ public class AdminMain extends AppCompatActivity {
             }
         });
 
-        binding.btnAddStock.setOnClickListener(new View.OnClickListener() {
+        binding.btnUpdateIdItems.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(AdminMain.this, AdminAddStockActivity.class));
+                startActivity(new Intent(AdminMain.this, AdminUpdateIdItemsActivity.class));
             }
         });
 

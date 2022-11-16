@@ -34,7 +34,7 @@
         tools:layout_editor_absoluteY="510dp" />
 
     <androidx.appcompat.widget.AppCompatButton
-        android:id="@+id/btnAddStock"
+        android:id="@+id/btnUpdateIdItems"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
@@ -44,7 +44,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="@drawable/button_color"
-        android:text="@string/txt_add_stock"
+        android:text="@string/txt_update_ID_items"
         android:textColor="@color/white"
         tools:layout_editor_absoluteX="16dp"
         tools:layout_editor_absoluteY="420dp" />

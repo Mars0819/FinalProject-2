@@ -6,7 +6,7 @@
     <string name="txt_phone_no">Phone No</string>
     <string name="txt_name">Name</string>
     <string name="txt_login_as_staff">Login As Staff</string>
-    <string name="txt_add_stock">Add Stock</string>
+    <string name="txt_update_ID_items">Update ID items</string>
     <string name="txt_login_as_admin">Login As Admin</string>
     <string name="txt_we_wish_you_a_happy_working_day">We wish you a happy working day</string>
     <string name="txt_enter_item_id">Enter Item ID</string>

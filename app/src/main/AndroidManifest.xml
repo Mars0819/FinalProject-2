@@ -91,7 +91,7 @@
                 android:value="" />
         </activity>
         <activity
-            android:name=".Admin.AdminAddStockActivity"
+            android:name=".Admin.AdminUpdateIdItemsActivity"
             android:exported="false">
             <meta-data
                 android:name="android.app.lib_name"
