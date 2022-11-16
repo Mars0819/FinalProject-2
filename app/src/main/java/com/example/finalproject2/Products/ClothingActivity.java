@@ -24,7 +24,7 @@ public class ClothingActivity extends AppCompatActivity {
         btnMen.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                startActivity(new Intent(ClothingActivity.this, CategoryActivity.class));
+                startActivity(new Intent(ClothingActivity.this, CategoryMenActivity.class));
             }
         });
 
@@ -32,7 +32,7 @@ public class ClothingActivity extends AppCompatActivity {
         btnWomen.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                startActivity(new Intent(ClothingActivity.this, CategoryActivity.class));
+                startActivity(new Intent(ClothingActivity.this, CategoryWomenActivity.class));
             }
         });
     }

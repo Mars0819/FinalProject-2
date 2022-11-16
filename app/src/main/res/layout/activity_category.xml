@@ -5,7 +5,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Products.CategoryActivity">
+    tools:context=".Products.CategoryMenActivity">
 
     <RelativeLayout
         android:layout_width="match_parent"
@@ -37,7 +37,7 @@
             android:textColor="@color/primaryColor" />
 
         <Button
-            android:id="@+id/btnBottomWear"
+            android:id="@+id/btnBottomwear"
             android:layout_width="match_parent"
             android:layout_height="200dp"
             android:layout_below="@id/btnFormals"
@@ -53,7 +53,7 @@
             android:id="@+id/btnShoes"
             android:layout_width="match_parent"
             android:layout_height="200dp"
-            android:layout_below="@id/btnBottomWear"
+            android:layout_below="@id/btnBottomwear"
             android:layout_margin="8dp"
             android:layout_marginStart="200dp"
             android:background="@drawable/button_transparent"

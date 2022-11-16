@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".User.UserRegisterActivity"
+    tools:context=".User.RegisterActivity"
     android:background="@color/primaryColor">
 
     <ImageView
@@ -27,10 +27,10 @@
             android:id="@+id/tvwelcomeadmin"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="10dp"
             android:layout_centerHorizontal="true"
+            android:layout_marginTop="15dp"
             android:fontFamily="@font/poppinsbold"
-            android:text="Register"
+            android:text="User Register"
             android:textColor="@color/Black"
             android:textSize="25sp" />
 
@@ -47,29 +47,21 @@
                 android:layout_marginLeft="10dp"
                 android:layout_marginTop="20sp"
                 android:fontFamily="@font/poppinsbold"
-                android:text="Nama"
+                android:text="Email"
                 android:textColor="@color/Black"
                 android:textSize="15sp" />
 
-<!--            <TextView-->
-<!--                android:layout_width="wrap_content"-->
-<!--                android:layout_height="wrap_content"-->
-<!--                android:layout_marginLeft="10dp"-->
-<!--                android:layout_marginTop="25sp"-->
-<!--                android:fontFamily="@font/poppinsbold"-->
-<!--                android:text="Email"-->
-<!--                android:textColor="@color/Black"-->
-<!--                android:textSize="15sp" />-->
+            <!--            <TextView-->
+            <!--                android:layout_width="wrap_content"-->
+            <!--                android:layout_height="wrap_content"-->
+            <!--                android:layout_marginLeft="10dp"-->
+            <!--                android:layout_marginTop="25sp"-->
+            <!--                android:fontFamily="@font/poppinsbold"-->
+            <!--                android:text="Email"-->
+            <!--                android:textColor="@color/Black"-->
+            <!--                android:textSize="15sp" />-->
 
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="10dp"
-                android:layout_marginTop="25sp"
-                android:fontFamily="@font/poppinsbold"
-                android:text="Telephone"
-                android:textColor="@color/Black"
-                android:textSize="15sp" />
+
 
             <TextView
                 android:layout_width="wrap_content"
@@ -81,15 +73,16 @@
                 android:textColor="@color/Black"
                 android:textSize="15sp" />
 
-<!--            <TextView-->
-<!--                android:layout_width="wrap_content"-->
-<!--                android:layout_height="wrap_content"-->
-<!--                android:layout_marginLeft="10dp"-->
-<!--                android:layout_marginTop="20sp"-->
-<!--                android:fontFamily="@font/poppinsbold"-->
-<!--                android:text="Re-Password"-->
-<!--                android:textColor="@color/Black"-->
-<!--                android:textSize="15sp" />-->
+
+            <!--            <TextView-->
+            <!--                android:layout_width="wrap_content"-->
+            <!--                android:layout_height="wrap_content"-->
+            <!--                android:layout_marginLeft="10dp"-->
+            <!--                android:layout_marginTop="20sp"-->
+            <!--                android:fontFamily="@font/poppinsbold"-->
+            <!--                android:text="Re-Password"-->
+            <!--                android:textColor="@color/Black"-->
+            <!--                android:textSize="15sp" />-->
         </LinearLayout>
 
         <LinearLayout
@@ -100,56 +93,71 @@
             android:orientation="vertical">
 
             <EditText
-                android:id="@+id/regis_name"
+                android:id="@+id/edt_email_register"
                 android:layout_width="200sp"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="5dp"
-                android:hint="Nama Lengkap"
-                android:inputType="textPersonName" />
-
-<!--            <EditText-->
-<!--                android:id="@+id/regis_email"-->
-<!--                android:layout_width="200sp"-->
-<!--                android:layout_height="wrap_content"-->
-<!--                android:layout_marginTop="5dp"-->
-<!--                android:hint="Email"-->
-<!--                android:inputType="textEmailAddress" />-->
+                android:inputType="textEmailAddress"
+                android:hint="Email"
+                tools:targetApi="o"/>
 
             <EditText
-                android:id="@+id/regis_tlfn"
+                android:id="@+id/edt_password_register"
                 android:layout_width="200sp"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="5dp"
-                android:hint="Telephone"
-                android:inputType="number" />
+                android:inputType="textPassword"
+                android:hint="@string/txt_password"
+                tools:targetApi="o"/>
 
-            <EditText
-                android:id="@+id/regis_password"
-                android:layout_width="200sp"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="5dp"
-                android:hint="Password"
-                android:inputType="textPassword" />
 
-<!--            <EditText-->
-<!--                android:id="@+id/regis_repassword"-->
-<!--                android:layout_width="200sp"-->
-<!--                android:layout_height="wrap_content"-->
-<!--                android:layout_marginTop="5dp"-->
-<!--                android:hint="Re-Password"-->
-<!--                android:inputType="textPersonName" />-->
+
+            <!--            <EditText-->
+            <!--                android:id="@+id/regis_repassword"-->
+            <!--                android:layout_width="200sp"-->
+            <!--                android:layout_height="wrap_content"-->
+            <!--                android:layout_marginTop="5dp"-->
+            <!--                android:hint="Re-Password"-->
+            <!--                android:inputType="textPersonName" />-->
+
 
         </LinearLayout>
 
+
         <Button
+            android:id="@+id/btnRegister"
             android:layout_width="wrap_content"
             android:layout_height="50sp"
             android:layout_centerHorizontal="true"
             android:layout_marginLeft="150dp"
-            android:layout_marginTop="340dp"
+            android:layout_marginTop="200dp"
             android:background="@drawable/button_color"
             android:fontFamily="@font/poppinsbold"
             android:text="Register" />
+
+        <TextView
+            android:id="@+id/tvAccount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="40dp"
+            android:layout_below="@id/btnRegister"
+            android:fontFamily="@font/poppinsbold"
+            android:text="already have an account?"
+            android:textColor="@color/Black"
+            android:textSize="15sp" />
+        <TextView
+            android:id="@+id/tvLogin"
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:text="LOGIN"
+            android:layout_below="@+id/tvAccount"
+            android:layout_centerHorizontal="true"
+            android:fontFamily="@font/poppinsbold"
+            android:textStyle="bold"
+            android:textColor="#204A9E"/>
+
+
     </RelativeLayout>
 
 </RelativeLayout>

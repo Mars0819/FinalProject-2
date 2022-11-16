@@ -14,8 +14,8 @@ import android.widget.RelativeLayout;
 import android.widget.TextView;
 
 import com.example.finalproject2.Admin.AdminLoginPagesActivity;
-import com.example.finalproject2.User.UserLoginActivity;
-import com.example.finalproject2.User.UserRegisterActivity;
+import com.example.finalproject2.User.LoginActivity;
+import com.example.finalproject2.User.RegisterActivity;
 
 public class HalamanAwal extends AppCompatActivity {
 
@@ -51,7 +51,7 @@ public class HalamanAwal extends AppCompatActivity {
         userlogin.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(HalamanAwal.this, UserLoginActivity.class);
+                Intent intent = new Intent(HalamanAwal.this, LoginActivity.class);
                 intent.addFlags(intent.FLAG_ACTIVITY_CLEAR_TOP|intent.FLAG_ACTIVITY_SINGLE_TOP);
                 startActivity(intent);
             }
@@ -67,7 +67,7 @@ public class HalamanAwal extends AppCompatActivity {
         registeruser.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(HalamanAwal.this, UserRegisterActivity.class);
+                Intent intent = new Intent(HalamanAwal.this, RegisterActivity.class);
                 intent.addFlags(intent.FLAG_ACTIVITY_CLEAR_TOP|intent.FLAG_ACTIVITY_SINGLE_TOP);
                 startActivity(intent);
             }

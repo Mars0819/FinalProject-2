@@ -34,11 +34,9 @@ public class TshirtsAdapter extends RecyclerView.Adapter<TshirtsAdapter.ViewRecH
     @Override
     public void onBindViewHolder(@NonNull ViewRecHolder holder, int position) {
         final TshirtsModel tshirtsModel = listData[position];
-       // holder.imgItem.setImageResource(listData[position].getImgItem());
-        //Picasso.get().load(https://firebasestorage.googleapis.com/v0/b/finpro2-48f9f.appspot.com/o/pocket%20shirt.jpg?alt=media&token=2fddb346-599f-4e5c-9a92-368cfabed3cb)
-       // into.(holder.imgItem)
         holder.tvNamaItem.setText(listData[position].getTvNamaItem());
         holder.tvHarga.setText(listData[position].getTvHarga());
+        holder.imgItem.setImageResource(listData[position].getImgItem());
     }
 
     @Override

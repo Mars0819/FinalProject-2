@@ -5,7 +5,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Products.TshirtsActivity">
+    tools:context=".Products.TshirtsMenActivity"
+    android:orientation="vertical">
 
     <LinearLayout
         android:id="@+id/layoutHome"
@@ -16,8 +17,7 @@
         <androidx.core.widget.NestedScrollView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="vertical"
-            tools:ignore="UselessParent">
+            android:orientation="horizontal">
 
             <RelativeLayout
                 android:layout_width="match_parent"
