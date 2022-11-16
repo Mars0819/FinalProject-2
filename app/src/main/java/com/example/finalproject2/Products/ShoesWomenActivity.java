@@ -20,11 +20,11 @@ public class ShoesWomenActivity extends AppCompatActivity {
         rvShoesItem = findViewById(R.id.rvShoesItem);
 
         ShoesModel[] dataShoes = new ShoesModel[]{
-                new ShoesModel("Oversized Shirt", "Rp. 379.000,-",  R.drawable.oversizedshirt),
-                new ShoesModel("Pocket Shirt", "Rp. 189.000,-",  R.drawable.pocketshirt),
-                new ShoesModel("Polo Shirt", "Rp. 170.000,-",  R.drawable.poloshirt),
-                new ShoesModel("Relaxed Fit Shirt", "Rp. 299.000,-", R.drawable.relaxedfit),
-                new ShoesModel("Roundneck Shirt", "Rp. 99.900,-",  R.drawable.roundneck),
+                new ShoesModel("Chunky Heeled Loafers", "Rp. 409.000,-",  R.drawable.chunky_heeled_loafers),
+                new ShoesModel("Mules", "Rp. 349.000,-",  R.drawable.mules),
+                new ShoesModel("Platform Mules", "Rp. 370.000,-",  R.drawable.platform_mules),
+                new ShoesModel("Chunky Snaffle Trim Loafers", "Rp. 649.000,-", R.drawable.chunky_snaffle_trim_loafers),
+                new ShoesModel("Studded Mules", "Rp. 469.000,-",  R.drawable.studded_mules),
 
         };
 

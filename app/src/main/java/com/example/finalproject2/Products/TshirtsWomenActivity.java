@@ -20,11 +20,11 @@ public class TshirtsWomenActivity extends AppCompatActivity {
         rvTshirtsItem = findViewById(R.id.rvTshirtsItem);
 
         TshirtsModel[] dataTshirts = new TshirtsModel[]{
-                new TshirtsModel("Oversized Shirt", "Rp. 379.000,-",  R.drawable.hacktiv8),
-                new TshirtsModel("Pocket Shirt", "Rp. 189.000,-",  R.drawable.pocketshirt),
-                new TshirtsModel("Polo Shirt", "Rp. 170.000,-",  R.drawable.poloshirt),
-                new TshirtsModel("Relaxed Fit Shirt", "Rp. 299.000,-", R.drawable.relaxedfit),
-                new TshirtsModel("Roundneck Shirt", "Rp. 99.900,-",  R.drawable.roundneck),
+                new TshirtsModel("Cotton T-Shirt", "Rp. 232.000,-",  R.drawable.cotton_tshirt),
+                new TshirtsModel("Printed T-Shirt", "Rp. 300.000,-",  R.drawable.printed_tshirt),
+                new TshirtsModel("Oversized T-Shirt", "Rp. 299.000,-",  R.drawable.oversized_tshirt),
+                new TshirtsModel("Sleeveless T-Shirt", "Rp. 199.000,-", R.drawable.sleeveless_tshirt),
+                new TshirtsModel("Fineknit T-Shirt", "Rp. 280.000,-",  R.drawable.fineknit_tshirt),
 
         };
 

@@ -20,11 +20,11 @@ public class BottomwearWomenActivity extends AppCompatActivity {
         rvBottomwearItem = findViewById(R.id.rvBottomwearItem);
 
         BottomwearModel[] dataBottomwear = new BottomwearModel[]{
-                new BottomwearModel("Oversized Shirt", "Rp. 379.000,-",  R.drawable.oversizedshirt),
-                new BottomwearModel("Pocket Shirt", "Rp. 189.000,-",  R.drawable.pocketshirt),
-                new BottomwearModel("Polo Shirt", "Rp. 170.000,-",  R.drawable.poloshirt),
-                new BottomwearModel("Relaxed Fit Shirt", "Rp. 299.000,-", R.drawable.relaxedfit),
-                new BottomwearModel("Roundneck Shirt", "Rp. 99.900,-",  R.drawable.roundneck),
+                new BottomwearModel("Straight High Split Jeans", "Rp. 479.000,-",  R.drawable.straight_high_split_jeans),
+                new BottomwearModel("90s Baggy High Waist Jeans", "Rp. 588.000,-",  R.drawable.baggy_high_waist_jeans),
+                new BottomwearModel("Mom Fit Denim Shorts", "Rp. 430.000,-",  R.drawable.mom_fit_denim_shorts),
+                new BottomwearModel("Sweatshorts", "Rp. 532.000,-", R.drawable.sweatshorts),
+                new BottomwearModel("Denim Shorts", "Rp. 299.000,-",  R.drawable.denim_shorts),
 
         };
 

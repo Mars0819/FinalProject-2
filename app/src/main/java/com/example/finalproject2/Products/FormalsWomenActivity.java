@@ -20,11 +20,11 @@ public class FormalsWomenActivity extends AppCompatActivity {
         rvFormalsItem = findViewById(R.id.rvFormalsItem);
 
         FormalsModel[] dataFormals = new FormalsModel[]{
-                new FormalsModel("Oversized Shirt", "Rp. 379.000,-",  R.drawable.oversizedshirt),
-                new FormalsModel("Pocket Shirt", "Rp. 189.000,-",  R.drawable.pocketshirt),
-                new FormalsModel("Polo Shirt", "Rp. 170.000,-",  R.drawable.poloshirt),
-                new FormalsModel("Relaxed Fit Shirt", "Rp. 299.000,-", R.drawable.relaxedfit),
-                new FormalsModel("Roundneck Shirt", "Rp. 99.900,-",  R.drawable.roundneck),
+                new FormalsModel("Fitted Jacket", "Rp. 479.000,-",  R.drawable.fitted_jacket),
+                new FormalsModel("Oversized Jacket", "Rp. 589.000,-",  R.drawable.oversized_jacket),
+                new FormalsModel("Single Breasted Jacket", "Rp. 238.000,-",  R.drawable.single_breasted_jacket),
+                new FormalsModel("Sleeveless Jacket", "Rp. 399.000,-", R.drawable.sleeveless_jacket),
+                new FormalsModel("Denim Suit Waistcoat", "Rp. 499.000,-",  R.drawable.denim_suit_waistcoat),
 
         };
 
