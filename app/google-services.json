@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "496219220470",
+    "firebase_url": "https://finpro2-48f9f-default-rtdb.firebaseio.com",
+    "project_id": "finpro2-48f9f",
+    "storage_bucket": "finpro2-48f9f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:496219220470:android:02ec02654d78b87addffd7",
+        "android_client_info": {
+          "package_name": "com.example.finalproject2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "496219220470-g6gj96pp7idd7u32g54tgs06nqqt9hr0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB1rmD333WoGqnxr6dQUfVZ5z0Nrv2n_kU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "496219220470-g6gj96pp7idd7u32g54tgs06nqqt9hr0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

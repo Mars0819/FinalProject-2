@@ -47,7 +47,7 @@
                 android:layout_marginLeft="10dp"
                 android:layout_marginTop="20sp"
                 android:fontFamily="@font/poppinsbold"
-                android:text="Nama"
+                android:text="Email"
                 android:textColor="@color/Black"
                 android:textSize="15sp" />
 
@@ -93,27 +93,21 @@
             android:orientation="vertical">
 
             <EditText
-                android:id="@+id/regis_name"
+                android:id="@+id/edt_email"
                 android:layout_width="200sp"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="5dp"
-                android:inputType="textPersonName" />
-
-            <!--            <EditText-->
-            <!--                android:id="@+id/regis_email"-->
-            <!--                android:layout_width="200sp"-->
-            <!--                android:layout_height="wrap_content"-->
-            <!--                android:layout_marginTop="5dp"-->
-            <!--                android:hint="Email"-->
-            <!--                android:inputType="textEmailAddress" />-->
+                android:inputType="textEmailAddress"
+                tools:targetApi="o"/>
 
 
             <EditText
-                android:id="@+id/regis_password"
+                android:id="@+id/edt_password"
                 android:layout_width="200sp"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="5dp"
-                android:inputType="textPassword" />
+                android:inputType="textPassword"
+                tools:targetApi="o"/>
 
 
             <!--            <EditText-->
