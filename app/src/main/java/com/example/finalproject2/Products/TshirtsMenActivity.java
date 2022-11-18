@@ -25,6 +25,12 @@ public class TshirtsMenActivity extends AppCompatActivity {
                 new TshirtsModel("Polo Shirt", "Rp. 170.000,-",  R.drawable.poloshirt),
                 new TshirtsModel("Relaxed Fit Shirt", "Rp. 299.000,-", R.drawable.relaxedfit),
                 new TshirtsModel("Roundneck Shirt", "Rp. 99.900,-",  R.drawable.roundneck),
+                new TshirtsModel("Relaxed Fitterry Polo Shirt", "Rp. 209.000,-",  R.drawable.relaxedfitterrypoloshirt),
+                new TshirtsModel("Printed Shirt", "Rp. 108.000,-",  R.drawable.printedt_shirt),
+                new TshirtsModel("Relaxed Fit Cotton Shirt", "Rp. 119.000,-",  R.drawable.relaxedfitcottont_shirt),
+                new TshirtsModel("Slim Fit Shirt", "Rp. 99.999,-",  R.drawable.slimfitpoloshirt),
+                new TshirtsModel("Oversized Fit Printed Shirt", "Rp. 299.900,-",  R.drawable.oversizedfitprintedt_shirt),
+
 
         };
 

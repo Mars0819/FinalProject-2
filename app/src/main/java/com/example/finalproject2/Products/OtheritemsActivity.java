@@ -30,6 +30,16 @@ public class OtheritemsActivity extends AppCompatActivity {
                         "Soft toy, set of 2, koala/grey", "Rp. 199.000,-", R.drawable.sottast),
                 new OtheritemsModel("GOSIG GOLDEN\n" +
                         "Soft toy, dog/golden retriever, 40 cm", "Rp. 79.900,-",  R.drawable.gosig_golden),
+                new OtheritemsModel("GRACIÖS\n" +
+                        "Cushion, velvet/turquoise, 36 cm", "Rp. 199.000,-",  R.drawable.gracios),
+                new OtheritemsModel("UPPTÅG\n" +
+                        "Cushion, blue, 49x36 cm", "Rp. 179.000,-",  R.drawable.upptag),
+                new OtheritemsModel("FAMNIG HJÄRTA\n" +
+                        "Cushion, red, 40x101 cm", "Rp. 49.900,-",  R.drawable.famnig),
+                new OtheritemsModel("BARNDRÖM\n" +
+                        "Bantal kursi dengan kantong, krem, 32x8 cm", "Rp. 199.000,-",  R.drawable.barndrom),
+                new OtheritemsModel("FJÄDERMOLN\n" +
+                        "Bantal kursi, biru muda, 59x34 cm", "Rp. 129.000,-",  R.drawable.fjadermoln),
 
         };
 

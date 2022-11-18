@@ -25,6 +25,11 @@ public class ShoesMenActivity extends AppCompatActivity {
                 new ShoesModel("Derby Shoes", "Rp. 675.000,-",  R.drawable.derby_shoes),
                 new ShoesModel("Canvas Hi-Top Trainers Shoes", "Rp. 435.000,-", R.drawable.canvas_hi_top_trainers),
                 new ShoesModel("Chunky Derby Shoes", "Rp. 624.000,-",  R.drawable.chunky_derby_shoes),
+                new ShoesModel("Terry Slides", "Rp. 649.000,-",  R.drawable.terryslides),
+                new ShoesModel("Slip On Trainers Shoes", "Rp. 525.000,-",  R.drawable.slip_ontrainers),
+                new ShoesModel("Slip On Trainers Shoes", "Rp. 499.000,-",  R.drawable.slip_ontrainers_greymarl),
+                new ShoesModel("Espadrilles", "Rp. 600.000,-",  R.drawable.espadrilles),
+                new ShoesModel("Trainers White Shoes", "Rp. 599.000,-",  R.drawable.trainers_white),
 
         };
 

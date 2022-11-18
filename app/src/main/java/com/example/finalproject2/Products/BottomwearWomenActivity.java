@@ -25,6 +25,11 @@ public class BottomwearWomenActivity extends AppCompatActivity {
                 new BottomwearModel("Mom Fit Denim Shorts", "Rp. 430.000,-",  R.drawable.mom_fit_denim_shorts),
                 new BottomwearModel("Sweatshorts", "Rp. 532.000,-", R.drawable.sweatshorts),
                 new BottomwearModel("Denim Shorts", "Rp. 299.000,-",  R.drawable.denim_shorts),
+                new BottomwearModel("Crease Leg Lined Satin Trousers", "Rp. 389.000,-",  R.drawable.crease_leglinedsatintrousers),
+                new BottomwearModel("Straight Cargo Trousers", "Rp. 249.000,-",  R.drawable.straightcargotrousers),
+                new BottomwearModel("Wide Satin Trousers", "Rp. 299.000,-",  R.drawable.widesatintrousers),
+                new BottomwearModel("Sweatpants", "Rp. 199.000,-",  R.drawable.sweatpants),
+                new BottomwearModel("Wide Linen Blend Trousers", "Rp. 399.000,-",  R.drawable.widelinen_blendtrousers),
 
         };
 

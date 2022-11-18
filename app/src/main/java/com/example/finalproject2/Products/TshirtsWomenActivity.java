@@ -25,6 +25,11 @@ public class TshirtsWomenActivity extends AppCompatActivity {
                 new TshirtsModel("Oversized T-Shirt", "Rp. 299.000,-",  R.drawable.oversized_tshirt),
                 new TshirtsModel("Sleeveless T-Shirt", "Rp. 199.000,-", R.drawable.sleeveless_tshirt),
                 new TshirtsModel("Fineknit T-Shirt", "Rp. 280.000,-",  R.drawable.fineknit_tshirt),
+                new TshirtsModel("Sweatshirt", "Rp. 299.000,-",  R.drawable.sweatshirt),
+                new TshirtsModel("Short Sleeved Sweatshirt", "Rp. 309.000,-",  R.drawable.short_sleevedsweatshirt),
+                new TshirtsModel("Sleeveless Sweatshirt Top", "Rp. 240.000,-",  R.drawable.sleevelesssweatshirttop),
+                new TshirtsModel("Oversized Sweatshirt", "Rp. 290.000,-",  R.drawable.oversizedsweatshirt),
+                new TshirtsModel("Collared Sweatshirt", "Rp. 299.000,-",  R.drawable.collaredsweatshirt),
 
         };
 
