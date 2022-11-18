@@ -13,8 +13,10 @@ public class AdminActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        com.example.finalproject2.databinding.ActivityAdminBinding binding = ActivityAdminBinding.inflate(getLayoutInflater());
+        com.example.finalproject2.databinding.ActivityAdminBinding
+                binding = ActivityAdminBinding.inflate(getLayoutInflater());
         setContentView(binding.getRoot());
+
 
         binding.btnAddStaff.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -22,10 +24,10 @@ public class AdminActivity extends AppCompatActivity {
                 startActivity(new Intent(AdminActivity.this, AdminAddStaffActivity.class));
             }
         });
-        binding.btnUpdateIdItems.setOnClickListener(new View.OnClickListener() {
+        binding.btnAddStocks.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(AdminActivity.this, AdminUpdateIdItemsActivity.class));
+                startActivity(new Intent(AdminActivity.this, AdminAddStockActivity.class));
             }
         });
     }

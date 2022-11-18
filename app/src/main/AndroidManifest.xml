@@ -124,11 +124,17 @@
                 android:value="" />
         </activity>
         <activity
-            android:name=".Admin.AdminUpdateIdItemsActivity"
+            android:name=".Admin.AdminAddStockActivity"
             android:exported="false">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
+        </activity>
+        <activity android:name=".Admin.AdminUpdateIdActivity"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value=""/>
         </activity>
         <activity
             android:name=".Products.CategoryMenActivity"

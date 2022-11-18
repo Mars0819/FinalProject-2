@@ -5,39 +5,23 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:padding="16dp"
-    tools:context=".Admin.AdminUpdateIdItemsActivity">
-
-    <TextView
-        android:id="@+id/tvTittleAddStock"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="16dp"
-        android:fontFamily="@font/poppinsmedium"
-        android:text="@string/txt_update_ID_items"
-        android:textAllCaps="true"
-        android:textColor="@color/black"
-        android:textSize="32sp"
-        android:textStyle="bold"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+    tools:context=".Admin.AdminAddStockActivity">
 
     <ImageView
         android:id="@+id/imageAwal"
-        android:layout_width="200dp"
-        android:layout_height="200dp"
+        android:layout_width="198dp"
+        android:layout_height="166dp"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="60dp"
-        android:layout_marginBottom="40dp"
+        android:layout_marginTop="90dp"
         android:src="@drawable/group_8" />
 
     <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="wrap_content"
         android:layout_below="@id/imageAwal"
+        android:layout_marginTop="80dp"
         android:background="@drawable/shape1"
         android:backgroundTint="@color/White">
-
 
         <EditText
             android:id="@+id/etItemId"
@@ -53,49 +37,65 @@
             android:textColorHint="@color/Black"
             android:textSize="15dp" />
 
-        <Spinner
-            android:id="@+id/etkategoribrg"
-            android:layout_width="match_parent"
-            android:layout_height="50dp"
-            android:layout_below="@id/etItemId"
-            android:layout_marginLeft="40dp"
-            android:layout_marginTop="20dp"
-            android:layout_marginRight="40dp"
-            android:background="@drawable/shape2"
-            android:drawablePadding="40dp"
-            android:entries="@array/type_of_kategori"
-            android:padding="15dp"
-            android:textColorHint="@color/Black"
-            android:textSize="15dp" />
-
-
         <EditText
-            android:id="@+id/etNamaBarang"
+            android:id="@+id/etQuantityItem"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_below="@id/etkategoribrg"
+            android:layout_below="@+id/etItemId"
             android:layout_marginLeft="40dp"
             android:layout_marginTop="20dp"
             android:layout_marginRight="40dp"
             android:background="@drawable/shape2"
             android:drawablePadding="40dp"
-            android:hint="Nama Barang"
+            android:hint="Quantity"
+            android:inputType="number"
             android:padding="15dp"
             android:textColorHint="@color/Black"
             android:textSize="15dp" />
 
         <Button
-            android:id="@+id/btnUpdateIdItems"
+            android:id="@+id/btnAddStocks"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_below="@id/etNamaBarang"
-            android:layout_marginLeft="30dp"
-            android:layout_marginTop="50dp"
-            android:layout_marginRight="30dp"
+            android:layout_below="@id/etQuantityItem"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="37dp"
+            android:layout_marginRight="50dp"
+            android:backgroundTint="@color/primaryColor"
+            android:fontFamily="@font/poppinsmedium"
+            android:padding="12dp"
+            android:text="Add Stocks"
+            android:textColor="@color/White" />
+
+        <Button
+            android:id="@+id/btnUpdateId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/btnAddStocks"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="25dp"
+            android:layout_marginRight="50dp"
             android:backgroundTint="@color/primaryColor"
             android:fontFamily="@font/poppinsmedium"
             android:padding="12dp"
             android:text="Update"
-            android:textColor="@color/White" />
+            android:textColor="@color/White"/>
+
+
     </RelativeLayout>
+
+
+    <TextView
+        android:id="@+id/tvTittleAddStock"
+        android:layout_width="269dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="11dp"
+        android:fontFamily="@font/poppinsmedium"
+        android:text="@string/txt_add_stocks"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textColor="@color/black"
+        android:textSize="30sp"
+        android:textStyle="bold" />
 </RelativeLayout>

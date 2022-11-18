@@ -1,6 +1,7 @@
 <resources>
     <string name="app_name">FinalProject2</string>
     <string name="txt_add_staff">Add Staff</string>
+    <string name="txt_add_stocks">Add Stocks</string>
     <string name="txt_create_account">Create Account</string>
     <string name="txt_password">Password</string>
     <string name="txt_phone_no">Phone No</string>
@@ -10,6 +11,8 @@
     <string name="txt_login_as_admin">Login As Admin</string>
     <string name="txt_we_wish_you_a_happy_working_day">We wish you a happy working day</string>
     <string name="txt_enter_item_id">Enter Item ID</string>
+    <string name="txt_enter_old_id">Old ID</string>
+    <string name="txt_enter_new_id">Enter New ID</string>
     <string name="txt_kategori_barang">Kategori Barang</string>
     <string name="txt_nama_barang">Nama Barang</string>
     <string name="txt_enter_quantity_to_add">Enter quantity to add</string>

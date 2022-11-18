@@ -55,13 +55,14 @@
         <entry key="..\:/Users/HP/Documents/GitHub/FinalProject-2/app/src/main/res/drawable/ic_baseline_key_24.xml" value="0.1765" />
         <entry key="..\:/Users/HP/Documents/GitHub/FinalProject-2/app/src/main/res/drawable/image1.xml" value="0.1765" />
         <entry key="..\:/Users/HP/Documents/GitHub/FinalProject-2/app/src/main/res/drawable/white_custom_background.xml" value="0.1765" />
-        <entry key="..\:/Users/HP/Documents/GitHub/FinalProject-2/app/src/main/res/layout/activity_about.xml" value="0.17552083333333332" />
-        <entry key="..\:/Users/HP/Documents/GitHub/FinalProject-2/app/src/main/res/layout/activity_admin.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/HP/Documents/GitHub/FinalProject-2/app/src/main/res/layout/activity_about.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/HP/Documents/GitHub/FinalProject-2/app/src/main/res/layout/activity_admin.xml" value="0.22" />
         <entry key="..\:/Users/HP/Documents/GitHub/FinalProject-2/app/src/main/res/layout/activity_admin_add_staff.xml" value="0.17552083333333332" />
         <entry key="..\:/Users/HP/Documents/GitHub/FinalProject-2/app/src/main/res/layout/activity_admin_add_stock.xml" value="0.14666666666666667" />
+        <entry key="..\:/Users/HP/Documents/GitHub/FinalProject-2/app/src/main/res/layout/activity_admin_add_stocks.xml" value="0.17552083333333332" />
         <entry key="..\:/Users/HP/Documents/GitHub/FinalProject-2/app/src/main/res/layout/activity_admin_login.xml" value="0.17552083333333332" />
         <entry key="..\:/Users/HP/Documents/GitHub/FinalProject-2/app/src/main/res/layout/activity_admin_login_pages.xml" value="0.17552083333333332" />
-        <entry key="..\:/Users/HP/Documents/GitHub/FinalProject-2/app/src/main/res/layout/activity_admin_update_id_items.xml" value="0.22" />
+        <entry key="..\:/Users/HP/Documents/GitHub/FinalProject-2/app/src/main/res/layout/activity_admin_update_id_items.xml" value="0.16666666666666666" />
         <entry key="..\:/Users/HP/Documents/GitHub/FinalProject-2/app/src/main/res/layout/activity_books.xml" value="0.1" />
         <entry key="..\:/Users/HP/Documents/GitHub/FinalProject-2/app/src/main/res/layout/activity_category.xml" value="0.1743659420289855" />
         <entry key="..\:/Users/HP/Documents/GitHub/FinalProject-2/app/src/main/res/layout/activity_clothing.xml" value="0.1743659420289855" />
@@ -72,6 +73,8 @@
         <entry key="..\:/Users/HP/Documents/GitHub/FinalProject-2/app/src/main/res/layout/activity_main_admin.xml" value="0.1743659420289855" />
         <entry key="..\:/Users/HP/Documents/GitHub/FinalProject-2/app/src/main/res/layout/activity_splash_screen.xml" value="0.17552083333333332" />
         <entry key="..\:/Users/HP/Documents/GitHub/FinalProject-2/app/src/main/res/layout/activity_staf_login.xml" value="0.16145833333333334" />
+        <entry key="..\:/Users/HP/Documents/GitHub/FinalProject-2/app/src/main/res/layout/activity_success_login_staf.xml" value="0.14666666666666667" />
+        <entry key="..\:/Users/HP/Documents/GitHub/FinalProject-2/app/src/main/res/layout/activity_update_id.xml" value="0.17552083333333332" />
         <entry key="..\:/Users/HP/Documents/GitHub/FinalProject-2/app/src/main/res/layout/activity_user_login_pages.xml" value="0.17552083333333332" />
         <entry key="..\:/Users/HP/Documents/GitHub/FinalProject-2/app/src/main/res/layout/activity_user_register.xml" value="0.17552083333333332" />
         <entry key="..\:/Users/HP/Documents/GitHub/FinalProject-2/app/src/main/res/layout/activity_user_register_pages.xml" value="0.14666666666666667" />

@@ -4,88 +4,80 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:padding="16dp"
-    tools:context=".Admin.AdminLoginPagesActivity">
-
+    tools:context=".Admin.AdminUpdateIdActivity">
 
     <ImageView
         android:id="@+id/imageAwal"
-        android:layout_width="200dp"
-        android:layout_height="200dp"
+        android:layout_width="198dp"
+        android:layout_height="166dp"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="60dp"
-        android:layout_marginBottom="40dp"
+        android:layout_marginTop="90dp"
         android:src="@drawable/group_8" />
 
     <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="wrap_content"
         android:layout_below="@id/imageAwal"
+        android:layout_marginTop="80dp"
         android:background="@drawable/shape1"
         android:backgroundTint="@color/White">
 
-        <EditText
-            android:id="@+id/etAdminUserName"
+        <TextView
+            android:id="@+id/etOldId"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginLeft="40dp"
             android:layout_marginTop="0dp"
             android:layout_marginRight="40dp"
             android:background="@drawable/shape2"
-            android:drawableLeft="@drawable/ic_baseline_email_24"
             android:drawablePadding="40dp"
-            android:hint="Username"
-            android:inputType="text"
+            android:hint="@string/txt_enter_old_id"
             android:padding="15dp"
             android:textColorHint="@color/Black"
             android:textSize="15dp" />
 
         <EditText
-            android:id="@+id/etAdminPassword"
+            android:id="@+id/etNewId"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_below="@+id/etAdminUserName"
+            android:layout_below="@+id/etOldId"
             android:layout_marginLeft="40dp"
             android:layout_marginTop="20dp"
             android:layout_marginRight="40dp"
             android:background="@drawable/shape2"
-            android:drawableLeft="@drawable/ic_baseline_key_24"
             android:drawablePadding="40dp"
-            android:hint="Password"
-            android:inputType="textPassword"
+            android:hint="@string/txt_enter_new_id"
             android:padding="15dp"
             android:textColorHint="@color/Black"
             android:textSize="15dp" />
 
         <Button
-            android:id="@+id/btnLoginAdmin"
+            android:id="@+id/btnUpdateId"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_below="@id/etAdminPassword"
-            android:layout_marginLeft="90dp"
-            android:layout_marginTop="50dp"
-            android:layout_marginRight="90dp"
+            android:layout_below="@id/etNewId"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="37dp"
+            android:layout_marginRight="50dp"
             android:backgroundTint="@color/primaryColor"
             android:fontFamily="@font/poppinsmedium"
             android:padding="12dp"
-            android:text="Login"
+            android:text="Update id"
             android:textColor="@color/White" />
 
-        <TextView
-            android:id="@+id/tv1"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_below="@id/btnLoginAdmin"
-            android:layout_centerHorizontal="true"
-            android:layout_marginLeft="40dp"
-            android:layout_marginTop="20dp"
-            android:layout_marginRight="40dp"
-            android:layout_marginBottom="20dp"
-            android:fontFamily="@font/poppinsregular"
-            android:gravity="center"
-            android:text="We Wish you a happy working day"
-            android:textAlignment="center"
-            android:textColor="@color/Black">
-
-        </TextView>
     </RelativeLayout>
+
+    <TextView
+        android:id="@+id/tvTittleUpdateIdItems"
+        android:layout_width="341dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="@font/poppinsmedium"
+        android:text="@string/txt_update_ID_items"
+        android:textAllCaps="true"
+        android:textColor="@color/black"
+        android:textSize="30sp"
+        android:textAlignment="center"
+        android:layout_marginTop="20sp"
+        android:textStyle="bold" />
 </RelativeLayout>
